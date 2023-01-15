@@ -15,6 +15,9 @@
   align-items: center;
   justify-content: center;
 }
+.home-header__profile:hover {
+  animation: rotateIcons 1s infinite;
+}
 
 .home-header i {
   color: #dae9f4;

@@ -72,3 +72,31 @@
   left: 30px;
   bottom: 25px;
 }
+@keyframes trashEx {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: none;
+  }
+}
+.fa-trash:hover {
+  animation: trashEx 0.5s forwards;
+}
+@keyframes bandageEx {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scaleX(2);
+  }
+  100% {
+    transform: none;
+  }
+}
+.fa-bandage:hover {
+  animation: bandageEx 0.5s forwards;
+}

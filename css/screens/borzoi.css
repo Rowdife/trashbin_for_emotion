@@ -11,3 +11,8 @@
   height: 100vmin;
   width: 100vmin;
 }
+@keyframes borzoiAni {
+}
+.main-screen-borzoi img:hover {
+  animation: trashEx 0.5s infinite;
+}

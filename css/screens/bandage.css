@@ -8,9 +8,37 @@
 .bandages__column div {
   margin-top: 30px;
   font-size: 20px;
+  height: 100px;
+}
+@keyframes upanddown {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(220px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.bandages__column div:hover {
+  animation: upanddown 0.5s ease-in-out infinite;
+}
+
+@keyframes rocateSuper {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(720deg);
+  }
 }
 .bandages__column a img {
   border-radius: 25px;
   height: 300px;
   width: 300px;
+}
+
+.bandages__column a img:hover {
+  animation: rocateSuper 0.5s linear infinite;
 }

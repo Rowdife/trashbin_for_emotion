@@ -1,1 +1,3 @@
-
+.user-component__column .user-component__avatar-icon .fa-recycle:hover {
+  animation: rotateIcons 1s infinite;
+}
