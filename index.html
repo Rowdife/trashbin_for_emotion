@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Trashbin</title>
+  </head>
+  <body class="login-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!-- Todo: Battery Icon-->
+        <!-- Lightning Icon-->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <i class="fa-solid fa-trash fa-5x"></i>
+      <h1 class="welcome-header__title">감정의 쓰레기통</h1>
+      <p class="welcome-header__text"></p>
+        어서와. 여기는 너의 고민과 감정을 버리는 곳이야.
+      </p>
+    </header>
+
+    <form action="home.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="너의 이름을 알려줄래?" required />
+      <input name="password" type="password" placeholder="오늘 네가 느꼈던 감정 한가지만 적어줘." required />
+      <input class="login_btn" type="submit" value="첫 감정 버리기" />
+      <a href="#">후련해지는 시간이 되길 바래</a>
+    </form>
+    <div id="no-mobile">
+      <div
+        class="
+          user-component__avatar-icon user-component__avatar
+          no-mobile_icon
+        "
+      >
+        <i class="fa-solid fa-face-sad-tear fa-3x"></i>
+      </div>
+      <span>Your screen is too big TT</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/61932abecd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

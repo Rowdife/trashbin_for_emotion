@@ -1,0 +1,13 @@
+.main-screen-borzoi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.main-screen-borzoi img {
+  margin-bottom: 20px;
+  object-fit: fill;
+  height: 100vmin;
+  width: 100vmin;
+}

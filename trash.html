@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trashbin</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!-- Todo: Battery Icon-->
+        <!-- Lightning Icon-->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">쓰레기통</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-xl"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <!-- <a href="emotion_1"></a>
+      <a href="emotion_1"></a>
+      <a href="emotion_1"></a>
+      <a href="emotion_1"></a>
+      <a href="emotion_1"></a> -->
+      <a href="recycle.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar-icon user-component__avatar">
+              <i class="fa-solid fa-recycle fa-3x"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">자동분리수거 쓰레기통</h4>
+              <h6 class="user-component__subtitle">
+                어떤 감정이든 분리수거해줄게
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">0:00</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar-icon user-component__avatar">
+              <i class="fa-solid fa-face-sad-tear fa-3x"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">슬픔 쓰레기통</h4>
+              <h6 class="user-component__subtitle">슬픈감정을 버리는 곳이야</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">0:00</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar-icon user-component__avatar">
+              <i class="fa-solid fa-face-angry fa-3x"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">분노 쓰레기통</h4>
+              <h6 class="user-component__subtitle">
+                화나는 감정을 버리는 곳이야
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">0:00</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar-icon user-component__avatar">
+              <i class="fa-solid fa-face-tired fa-3x"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">역겨움 쓰레기통</h4>
+              <h6 class="user-component__subtitle">
+                역겨운 감정을 버리는 곳이야
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">0:00</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar-icon user-component__avatar">
+              <i class="fa-solid fa-face-flushed fa-3x"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">두려움 쓰레기통</h4>
+              <h6 class="user-component__subtitle">
+                두려운 감정을 버리는 곳이야
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">0:00</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__avatar-icon user-component__avatar">
+              <i class="fa-solid fa-face-grin-squint fa-3x"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">기쁨 쓰레기통</h4>
+              <h6 class="user-component__subtitle">
+                기쁜 감정을 버리는 곳이야
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">0:00</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list friends_nav">
+        <li class="nav__btn">
+          <a class="nav__link" href="home.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="trash.html">
+            <!-- <span class="nav__notification badge">1</span> -->
+            <i class="fa-solid fa-trash fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="bandage.html">
+            <i class="fa-solid fa-bandage fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div
+        class="
+          user-component__avatar-icon user-component__avatar
+          no-mobile_icon
+        "
+      >
+        <i class="fa-solid fa-face-sad-tear fa-3x"></i>
+      </div>
+      <span>Your screen is too big TT</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/61932abecd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
